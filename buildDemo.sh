@@ -15,7 +15,7 @@ export STORAGE_ACCOUNT_NAME="cognitivestorage$RANDOM"
 export STORAGE_CONTAINER_NAME="$surname-cognitivecontainer"
 export COGNITIVE_SEARCH_SERVICE_NAME="$surname-searchservice"
 
-# az login --use-device-code
+az login --use-device-code
 
 export SUBSCRIPTION_ID=$(az account show --query id -o tsv)
 
