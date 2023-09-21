@@ -8,7 +8,7 @@ unset STORAGE_CONTAINER_NAME
 unset COGNITIVE_SEARCH_SERVICE_NAME
 unset SUBSCRIPTION_ID
 # establish variables
-export surname="dohoneylewis"
+export surname="SyedDemo"
 export RESOURCE_GROUP="$surname-cognitive-search"
 export LOCATION="westus"
 export STORAGE_ACCOUNT_NAME="cognitivestorage$RANDOM"
